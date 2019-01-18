@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Page Title</title>
+    <style>
+        table{
+            background:#000000;
+            color: #fff;
+            border-radius: 10px;
+        }
+    </style>
+    
+    <script>
+
+        function checkForm()
+        {
+            var fName = fn;
+            alert(fn.value);
+        }
+    
+    
+    
+    
+    </script>
+</head>
+<body>
+    <table align="center">
+        <tr>
+            <td colspan="2" align="center">Job Reg </td></tr>
+        <tr><td>First Name:</td><td><input type="text" name="fn" id="fn"/></td></tr>
+        <tr><td>Last Name:</td><td><input type="text" name="ln" id="ln"/></td></tr>
+        <tr><td>Email:</td><td><input type="text" name="em" id="em"/></td></tr>
+        <tr><td>Password:</td><td><input type="password" name="pwd" id="pwd"/></td></tr>
+        <tr><td>Confirm Password:</td><td><input type="password" name="pwd2" id="pwd2"/></td></tr>
+        <tr><td colspan="2" align="center"><input type="reset" name="r" id="r"/><input type="button" value="Submit Form" name="sb" onclick="checkForm()"></td></tr>
+    </table>
+    
+</body>
+</html>
